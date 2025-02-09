@@ -1,8 +1,36 @@
-# React + Vite
+# React + Vite (Prueba de e-commerce)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Descripcion del proyecto
+TiendaPC es una aplicación de comercio electrónico desarrollada en **React** y **React Router** que permite a los usuarios explorar y comprar computadoras. El proyecto incluye las siguientes características:
 
-Currently, two official plugins are available:
+- Página de inicio con productos destacados.
+- Página de productos con una lista completa de computadoras.
+- ChatBot integrado para asistencia en tiempo real.
+- Sistema de autenticación básico (login).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Requisitos
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
+
+- **Node.js** (v16 o superior)
+- **npm** (v8 o superior) o **yarn** (v1.22 o superior)
+
+# Estrucutra del proyecto
+src/
+├── components/       # Componentes reutilizables (Navbar, ChatBot)
+├── pages/            # Páginas de la aplicación (Home, Producto, Login)
+├── App.jsx           # Componente principal de la aplicación
+├── main.jsx          # Punto de entrada de la aplicación
+├── index.css         # Estilos globales
+
+# Uso 
+# Página de Inicio
+La página de inicio muestra una lista de productos destacados. Los usuarios pueden ver los productos.
+
+ChatBot
+El ChatBot está disponible. Los usuarios pueden hacer preguntas sobre los productos.
+
+Autenticación
+Para acceder a las páginas protegidas, los usuarios deben iniciar sesión. Las credenciales predeterminadas son:
+
+Usuario: admin@admin.com
+Contraseña: 123456789
