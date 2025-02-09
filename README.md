@@ -4,7 +4,6 @@
 TiendaPC es una aplicación de comercio electrónico desarrollada en **React** y **React Router** que permite a los usuarios explorar y comprar computadoras. El proyecto incluye las siguientes características:
 
 - Página de inicio con productos destacados.
-- Página de productos con una lista completa de computadoras.
 - ChatBot integrado para asistencia en tiempo real.
 - Sistema de autenticación básico (login).
 
