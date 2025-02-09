@@ -1,0 +1,227 @@
+/* index.css */
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el encabezado */
+.header {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Texto en blanco */
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los enlaces */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.navbar a {
+  color: #007bff; /* Color azul para los enlaces */
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #007bff; /* Fondo azul al pasar el mouse */
+  color: white; /* Texto blanco al pasar el mouse */
+}
+
+.product-grid {
+  display: flex; /* Cambia a flexbox para alinear las tarjetas en fila */
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una sola línea */
+  gap: 15px; /* Espacio entre las tarjetas */
+  padding: 20px;
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+}
+
+/* Estilos para las tarjetas de productos (horizontal) */
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 200px; /* Ancho fijo para las tarjetas */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 0 0 auto; /* Evita que las tarjetas se estiren */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 1.2rem; /* Tamaño de fuente más pequeño */
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+  color: #666;
+  margin-bottom: 10px;
+}
+/* Estilos generales para el login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #2a68cb, #284d8c);
+  font-family: "Poppins", sans-serif;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-box h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-group input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Mensaje de error */
+.error-message {
+  color: #ff4d4d;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+/* Botón de inicio de sesión */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #b51fb5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #91189f;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-box {
+  animation: fadeIn 0.6s ease-in-out;
+}
